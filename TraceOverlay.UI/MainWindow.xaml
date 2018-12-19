@@ -1,0 +1,13 @@
+﻿<Window x:Class="TraceOverlay.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Trace Overlay" Height="515" Width="586.119" Closing="Window_Closing">
+    <Grid Background="LightGray">
+        <Button x:Name="btnBrowse" Content="Browse" Margin="10,10,0,0" Click="btnBrowse_Click"/>
+        <StackPanel x:Name="splPreview" HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="440" Margin="120,10,0,0"/>
+        <CheckBox x:Name="chkDisplayOverlay" Content="Display Overlay" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Width="105" Checked="chkDisplayOverlay_Checked" Unchecked="chkDisplayOverlay_Unchecked"/>
+    </Grid>
+</Window>
